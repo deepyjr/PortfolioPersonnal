@@ -7,8 +7,8 @@
 }
 
 .titleHeader{
-
     font-size: 30px;
+    color: white;
 }
 
 .containerTitle{
@@ -21,14 +21,19 @@
 a{
     text-decoration: none;
     background-color: transparent;
-    color: black;
+    color: white;
 }
 
 .linkElement{
     margin-left: 1em;
+    transition: all 0.3s ease 0s;
+
+}
+.linkElement a:hover{
+    color: #0088a9;    
 }
 
-@media(min-width: 992px){
+/* @media(min-width: 992px){
     .containerNavBar{
         display:flex;
         max-width: 960px;
@@ -47,19 +52,19 @@ a{
         display:flex;
         max-width: 540px;
     }     
-}
+} */
 
 @media(min-width: 1200px){
     .containerNavBar{
         display:flex;
         justify-content:space-around;
-        max-width: 1140px;
-        width: 100%;
-        padding-right: 28px;
-        padding-left: 28px;
+        overflow: hidden;
+        position: fixed;
+        top: 0;
+        padding: 0 28px;
         margin-right: auto;
         margin-left: auto;
-        background-color: #6610f2;
+        /* background-color: #6610f2; */
+        width: 100%;
     }     
 }
-
