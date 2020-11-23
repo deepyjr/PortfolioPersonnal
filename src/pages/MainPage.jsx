@@ -1,11 +1,18 @@
 import React from 'react'
 import {
-    Header
+    Header, Caroussel
 } from '../components/index'
+
 function MainPage() {
     return (
         <div>
             <Header></Header>
+            <Caroussel></Caroussel>
+            <Caroussel></Caroussel>
+            <Caroussel></Caroussel>
+            <Caroussel></Caroussel>
+            <Caroussel></Caroussel>
+            
         </div>
     )
 }

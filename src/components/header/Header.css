@@ -9,6 +9,7 @@
 .titleHeader{
     font-size: 30px;
     color: white;
+    font-weight: bold;
 }
 
 .containerTitle{
@@ -27,7 +28,7 @@ a{
 .linkElement{
     margin-left: 1em;
     transition: all 0.3s ease 0s;
-
+    padding: 0 5%;
 }
 .linkElement a:hover{
     color: #0088a9;    
@@ -61,10 +62,17 @@ a{
         overflow: hidden;
         position: fixed;
         top: 0;
-        padding: 0 28px;
         margin-right: auto;
         margin-left: auto;
         /* background-color: #6610f2; */
         width: 100%;
     }     
+}
+
+.isScrolled{
+    transition: all 0.5s ease;
+    border-bottom: 1px solid #ccc;
+    border-color: #f44336;
+    background-color: #24252a;
+    z-index: 150;
 }

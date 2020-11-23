@@ -1,0 +1,8 @@
+.containerCarou{
+    text-align: center;
+    width: 60%;
+    margin: 250px auto;
+}
+.containerCarou > h1{
+color: white;
+}
