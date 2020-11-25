@@ -1,6 +1,6 @@
 import React from 'react'
 import {
-    Header, Caroussel
+    Header, Caroussel,DownPart
 } from '../components/index'
 
 function MainPage() {
@@ -8,6 +8,8 @@ function MainPage() {
         <div>
             <Header></Header>
             <Caroussel></Caroussel>
+            <DownPart></DownPart><br/>
+            <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
             <Caroussel></Caroussel>
             <Caroussel></Caroussel>
             <Caroussel></Caroussel>

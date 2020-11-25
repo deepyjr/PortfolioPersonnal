@@ -1,0 +1,25 @@
+.courbe1{
+    position: absolute;
+    background-size: cover;
+    right: 0;
+    bottom: -90px;
+    left:0;
+    opacity: 0.1;   
+}
+.courbe2{
+    position: absolute;
+    background-size: cover;
+    background-position: center top;
+    right: 0;
+    bottom: -70px;
+    left:0;
+    opacity: 0.15;   
+}
+.bas{
+    position: absolute;
+    background-size: cover;
+    right: 0;
+    bottom: 0;
+    left:0;
+    z-index: 2;
+}

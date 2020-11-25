@@ -1,8 +1,16 @@
 .containerCarou{
     text-align: center;
     width: 60%;
-    margin: 250px auto;
+    margin: 35vh auto;
 }
 .containerCarou > h1{
 color: white;
 }
+
+.containerCarou > p{
+    color: white;
+}
+
+.containerCarou > b, strong{
+    color: #0088a9;
+    }

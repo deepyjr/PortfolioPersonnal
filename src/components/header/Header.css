@@ -72,7 +72,7 @@ a{
 .isScrolled{
     transition: all 0.5s ease;
     border-bottom: 1px solid #ccc;
-    border-color: #f44336;
+    border-color: #0088a9;
     background-color: #24252a;
     z-index: 150;
 }
