@@ -1,16 +1,19 @@
 import React from 'react'
 import {
-    Header, Caroussel,DownPart
+    Header, Caroussel,DownPart, Slider
 } from '../components/index'
+import './MainPage.css'
 
 function MainPage() {
     return (
-        <div>
+        <div className="main">
             <Header></Header>
-            <Caroussel></Caroussel>
-            <DownPart></DownPart><br/>
-            <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-            <Caroussel></Caroussel>
+            <div className="homePageContainer">
+                <Caroussel></Caroussel>
+                <DownPart></DownPart>
+            </div>
+          
+            {/* <Slider></Slider> */}
             <Caroussel></Caroussel>
             <Caroussel></Caroussel>
             <Caroussel></Caroussel>

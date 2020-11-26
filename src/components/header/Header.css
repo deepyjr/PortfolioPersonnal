@@ -31,7 +31,7 @@ a{
     padding: 0 5%;
 }
 .linkElement a:hover{
-    color: #0088a9;    
+    color: #9c27b0;    
 }
 
 /* @media(min-width: 992px){
@@ -46,14 +46,22 @@ a{
         display:flex;
         max-width: 720px;
     }     
-}
+} */
 
 @media(min-width: 576px){
     .containerNavBar{
         display:flex;
-        max-width: 540px;
+        justify-content:space-around;
+        overflow: hidden;
+        position: fixed;
+        top: 0;
+        margin-right: auto;
+        margin-left: auto;
+        background-color:transparent;
+        width: 100%;
+        z-index: 150;
     }     
-} */
+}
 
 @media(min-width: 1200px){
     .containerNavBar{
@@ -64,15 +72,18 @@ a{
         top: 0;
         margin-right: auto;
         margin-left: auto;
-        /* background-color: #6610f2; */
+        background-color:transparent;
         width: 100%;
+        z-index: 150;
     }     
 }
 
 .isScrolled{
     transition: all 0.5s ease;
-    border-bottom: 1px solid #ccc;
-    border-color: #0088a9;
-    background-color: #24252a;
+    background-color: #6f86d6;
     z-index: 150;
+}
+
+.isNotScrolled{
+    background-color: transparent !important;
 }

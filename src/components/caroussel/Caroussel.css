@@ -1,16 +1,19 @@
 .containerCarou{
+    width: 100%;
     text-align: center;
-    width: 60%;
-    margin: 35vh auto;
+
+    margin: 25vh auto;
+    z-index: 5;
 }
 .containerCarou > h1{
 color: white;
 }
 
 .containerCarou > p{
+    font-size: 20px;
     color: white;
 }
 
 .containerCarou > b, strong{
-    color: #0088a9;
-    }
+    font-size: 20px;
+}

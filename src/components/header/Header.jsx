@@ -1,25 +1,30 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Header.css";
 import { useScrollPosition } from "@n8tb1t/use-scroll-position";
 
 export default function Header(props) {
-  const [isScrolled, setIsScrolled] = React.useState("");
-  const [over80, setOver80] = React.useState(false);
+  const [scrolled, setScrolled] = React.useState(false);
+  let navbarClasses = ["containerNavBar"];
 
-  useScrollPosition(({ prevPos, currPos }) => {
-    if (currPos.y < 200) {
-      setIsScrolled("isScrolled");
-      setOver80(true);
+  const handleScroll = () => {
+    const offset = window.scrollY;
+    if (offset > 200) {
+      setScrolled(true);
     } else {
-      setIsScrolled("");
+      setScrolled(false);
     }
-    console.log("prevPos", prevPos.y);
-    console.log("ACTUALPos", currPos.y);
+  };
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
   });
+
+  if (scrolled) {
+    navbarClasses.push("isScrolled");
+  }
 
   return (
     <>
-      <div className={"containerNavBar " + isScrolled}>
+      <div className={navbarClasses.join(" ")}>
         <nav className="containerTitle">
           <a className="titleHeader" href="http://">
             Deepyjr
