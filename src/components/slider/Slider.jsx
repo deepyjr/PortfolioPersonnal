@@ -9,14 +9,14 @@ function Slider() {
 <div
       className="App"
       style={{
-        background: 'blue',
+        background: 'transparent',
       }}
     >
       <Glide
         ref={gliderRef}
-        gap={100}
-        throttle={0}
-        type="slider"
+        gap={50}
+        throttle={1}
+        type="slide"
         customSlideAnimation={{
           timeout: 500,
           classNames: 'fade',
@@ -25,8 +25,8 @@ function Slider() {
           before: 500,
           after: 500,
         }}
-        perView={2}
-        startAt={1}
+        perView={1}
+        startAt={2}
         slideClassName="slider__frame"
         focusAt="center"
        

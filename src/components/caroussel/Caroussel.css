@@ -1,19 +1,20 @@
-.containerCarou{
-    width: 100%;
-    text-align: center;
+.containerCarou {
+  width: 100%;
+  text-align: center;
 
-    margin: 25vh auto;
-    z-index: 5;
+  margin: 25vh auto;
+  z-index: 5;
 }
-.containerCarou > h1{
-color: white;
-}
-
-.containerCarou > p{
-    font-size: 20px;
-    color: white;
+.containerCarou > h1 {
+  color: white;
 }
 
-.containerCarou > b, strong{
-    font-size: 20px;
+.containerCarou > p {
+  font-size: 20px;
+  color: white;
+}
+
+.containerCarou > b,
+strong {
+  font-size: 20px;
 }
