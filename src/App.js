@@ -4,7 +4,7 @@ import MainPage from './pages/MainPage'
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" id="outer-container">
       <MainPage></MainPage>
     </div>
   );
