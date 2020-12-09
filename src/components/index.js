@@ -1,8 +1,8 @@
 import Header from './header/Header'
 import Caroussel from './caroussel/Caroussel'
 import DownPart from './caroussel/DownPart'
-import Slider from './slider/Slider'
+import SliderComponent from './slider/SliderComponent'
 
 export {
-    Header,Caroussel, DownPart, Slider,
+    Header,Caroussel, DownPart, SliderComponent,
 } 

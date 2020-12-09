@@ -22,9 +22,9 @@ const ColorButton = withStyles((theme) => ({
   root: {
     marginTop:'1%',
     color: theme.palette.getContrastText(purple[500]),
-    backgroundColor: purple[500],
+    backgroundColor: "#FF5B2B",
     '&:hover': {
-      backgroundColor: purple[500],
+      backgroundColor: "#FF5B2B",
     },
   },
 }))(Button);

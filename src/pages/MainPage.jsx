@@ -1,5 +1,5 @@
 import React from "react";
-import { Header, Caroussel, DownPart, Slider } from "../components/index";
+import { Header, Caroussel, DownPart, SliderComponent } from "../components/index";
 import {
   BrowserView,
   MobileView,
@@ -26,7 +26,7 @@ function MainPage() {
       </div>
       <div className="body">
         <div className="servicePart">
-          <Slider></Slider>
+          <SliderComponent></SliderComponent>
         </div>
       </div>
       <Caroussel></Caroussel>
